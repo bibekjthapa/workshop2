@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: black;
+    display: flex;
+    
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 25px;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    padding-right: 10px;
+}
+nav .name{
+    color: white;
+    position: relative;
+    padding-left: 10px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 60vw;
+    margin: auto;
+    gap: 20px;
+    padding-top: 50px;
+}
+.bar{
+    border: 1px solid black;
+    padding-top: 10px;
+    background-color: grey;
+    margin-top: 20px;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+.myProjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+.Project1{
+    border: 3px solid black;
+    height: 350px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.Project2{
+    border: 3px solid black;
+    height: 350px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.Project1 h1{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+}
+.Project1 p{
+    align-items: center;
+    margin: 10px;
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-direction: column;
+
+}
+form{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+form input{
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 35px;
+}
+form textarea{
+    height: 70px;
+}
+
+button{
+    padding: 10px;
+    text-align: center;
+    align-items: center ;
+    margin: auto;
+    margin-top: 10px;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+img{
+    height: 300px;
+    width: 200px;
+}
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;       /* full width */
+    height: 100vh;      /* full height */
+    object-fit: cover;  /* makes video fill the screen */
+    z-index: -1;
+    opacity: 0.45;      
+}
