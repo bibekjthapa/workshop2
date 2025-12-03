@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Sanskar Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="hero">
+        <video autoplay loop muted id="video-background">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        </video>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content"></div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m <strong>Bibek Jung Thapa</strong>, a 21-year-old student currently
+            studying at Herald College. I enjoy frontend development and creating
+            clean, simple, user-friendly websites.
+        </p>
+        <p>
+            I am always learning, practicing, and building new projects to improve
+            my skills and grow as a developer.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+            <!-- Leave Management Project -->
+            <div class="project-box">
+                <img src="images/a.png" alt="Leave Management Projectz">
+                <div class="project-overlay">
+                    <h3>Leave Management</h3>
+                    <p>A web application to manage employee leaves efficiently with approval workflow.</p>
+                </div>
+            </div>
+
+            <!-- Weather App Project -->
+            <div class="project-box">
+                <img src="images/b.png" alt="Weather App Project">
+                <div class="project-overlay">
+                    <h3>Weather App</h3>
+                    <p>A real-time weather forecasting app with API integration for multiple cities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+            <label>Name:</label>
+            <input type="text" id="name" />
+
+            <label>Email:</label>
+            <input type="email" id="email" />
+
+            <label>Message:</label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="form-message"></p>
+    </section>
+
+    <footer>
+        <p>©️ 2025 Sanskar Shah</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
